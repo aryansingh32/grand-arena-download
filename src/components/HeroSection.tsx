@@ -44,8 +44,8 @@ const HeroSection = () => {
             Join the Ultimate Free Fire Tournament Platform. Compete, Win, and Earn Rewards!
           </p>
 
-          {/* Stats */}
-          <div className="flex flex-wrap justify-center gap-8 my-8">
+          {/* Stats - Hidden on Mobile */}
+          <div className="hidden md:flex flex-wrap justify-center gap-8 my-8">
             <div className="flex items-center gap-3 bg-card/50 backdrop-blur-sm px-6 py-3 rounded-lg neon-border">
               <Users className="w-6 h-6 text-primary" />
               <div className="text-left">
@@ -69,8 +69,23 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Main CTA */}
-          <div className="pt-8 animate-float">
+          {/* Mobile Download Button - Shown only on Mobile */}
+          <div className="md:hidden pt-6 animate-float">
+            <Button 
+              variant="hero" 
+              size="xl"
+              className="text-xl px-12 py-6 h-auto w-full max-w-sm"
+            >
+              <Download className="w-6 h-6 mr-3" />
+              DOWNLOAD THE APP
+            </Button>
+            <p className="text-sm text-muted-foreground mt-3">
+              Available for Android • Free to Download
+            </p>
+          </div>
+
+          {/* Main CTA - Hidden on Mobile */}
+          <div className="hidden md:block pt-8 animate-float">
             <Button 
               variant="hero" 
               size="xl"
