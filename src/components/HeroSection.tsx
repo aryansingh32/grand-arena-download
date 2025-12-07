@@ -75,9 +75,12 @@ const HeroSection = () => {
               variant="hero" 
               size="xl"
               className="text-xl px-12 py-6 h-auto w-full max-w-sm"
+              asChild
             >
-              <Download className="w-6 h-6 mr-3" />
-              DOWNLOAD THE APP
+              <a href="https://github.com/aryansingh32/grand-arena-download/releases/download/v1.0.0/grand.battle.arena.apk">
+                <Download className="w-6 h-6 mr-3" />
+                DOWNLOAD THE APP
+              </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-3">
               Available for Android • Free to Download
@@ -90,9 +93,12 @@ const HeroSection = () => {
               variant="hero" 
               size="xl"
               className="text-2xl px-16 py-8 h-auto"
+              asChild
             >
-              <Download className="w-8 h-8 mr-3" />
-              DOWNLOAD THE APP
+              <a href="https://github.com/aryansingh32/grand-arena-download/releases/download/v1.0.0/grand.battle.arena.apk">
+                <Download className="w-8 h-8 mr-3" />
+                DOWNLOAD THE APP
+              </a>
             </Button>
             <p className="text-sm text-muted-foreground mt-4">
               Available for Android • Free to Download
