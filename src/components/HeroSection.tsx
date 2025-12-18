@@ -95,7 +95,7 @@ const HeroSection = () => {
               className="text-2xl px-16 py-8 h-auto"
               asChild
             >
-              <a href="https://github.com/aryansingh32/grand-arena-download/releases/download/v1.0.0/grand.battle.arena.apk">
+              <a href="https://github.com/aryansingh32/grand-arena-download/releases/download/v1.0.1/grand.battle.arena.apk">
                 <Download className="w-8 h-8 mr-3" />
                 DOWNLOAD THE APP
               </a>
